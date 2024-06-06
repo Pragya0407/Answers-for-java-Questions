@@ -19,3 +19,8 @@ public class Main {
         } 
     } 
 }
+Input:
+0
+5
+Output:
+0
