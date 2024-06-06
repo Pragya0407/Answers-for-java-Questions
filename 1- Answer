@@ -1,0 +1,21 @@
+1Ans:
+import java.util.Scanner; 
+public class Main { 
+    public static void main(String[] args) { 
+        int salary=0,shift=0; 
+        double savings=0; 
+        Scanner in=new Scanner(System.in); 
+        salary = in.nextInt(); 
+        shift = in.nextInt(); 
+        if(salary > 8000) 
+        System.out.print("Salary too large "); 
+        else if(shift<0) 
+        System.out.print ("Shift too small\n"); 
+        else if(salary<0) 
+        System.out.print ("Salary too small"); 
+        else { 
+            savings =  (salary*0.5)+(salary*0.02*shift); 
+        System.out.printf ("%.0f",savings); 
+        } 
+    } 
+}
